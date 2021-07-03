@@ -1,4 +1,33 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
 }
-
+h1 {
+    font-size: 50px;
+}
+.programer-ratan {
+    color: #FFA500;
+}
+.top-banner {
+    display: flex;
+    background-image: url(../image/top-banner.png);
+    background-repeat: no-repeat;
+}
+.title {
+    width: 50%;
+    padding-left: 8%;
+}
+.title p {
+    text-align: justify;
+}
+.title img {
+    width: 80%;
+}
+.title-btn{
+    text-decoration: none;
+    background: linear-gradient(#f25336,#FF8F6C);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
