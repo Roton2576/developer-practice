@@ -13,6 +13,7 @@ h1 {
     display: flex;
     background-image: url(../image/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 80px;
 }
 .title {
     width: 50%;
@@ -20,9 +21,10 @@ h1 {
 }
 .title p {
     text-align: justify;
+    color: dimgray;
 }
 .title img {
-    width: 80%;
+    width: 90%;
 }
 .title-btn{
     text-decoration: none;
@@ -32,4 +34,26 @@ h1 {
     color: #ffffff;
     font-weight: bold;
     font-size: 18px;
+}
+
+.second-sec{
+    display: flex;
+    background-image: url(../image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dreamBig-title{
+    width: 50%;
+    padding-right: 8%;
+}
+.dreamBig-title img{
+    width: 90%;
+    padding-left: 8%;
+}
+.dreamBig-title h2{
+    font-size: 40px;
+}
+.dreamBig-title p{
+    color: dimgray;
+    text-align: justify;
 }
