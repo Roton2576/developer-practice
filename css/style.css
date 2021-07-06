@@ -1,59 +1,237 @@
-body {
-    font-family: 'Poppins', sans-serif;
+body{
+    font-family: 'Poppins', sans-serif;  
     margin: 0;
     padding: 0;
 }
-h1 {
-    font-size: 50px;
+
+/*<<<<<<<<<< Navigation Bar >>>>>>>>>>*/
+
+#navigation-bar {
+    background: #c2dbfa;
+    line-height: 1.9;
+    margin-top: -16px;
+    margin-bottom: 60px;
 }
-.programer-ratan {
-    color: #FFA500;
+#navigation-bar ul{
+    text-align: right;
+    margin-right: 120px;
 }
-.top-banner {
-    display: flex;
-    background-image: url(../image/top-banner.png);
-    background-repeat: no-repeat;
-    margin-bottom: 80px;
+#navigation-bar ul li{
+    display: inline-block;
 }
-.title {
-    width: 50%;
-    padding-left: 8%;
-}
-.title p {
-    text-align: justify;
-    color: dimgray;
-}
-.title img {
-    width: 90%;
-}
-.title-btn{
+#navigation-bar ul li a {
+    color: darkblue;
     text-decoration: none;
-    background: linear-gradient(#f25336,#FF8F6C);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
+    padding: 5px 30px;
+    font-weight: 800;
+    border-right: 1px solid black;
+    transition: .5s;
+    margin-right: -5px;
+}
+#navigation-bar ul li:first-child a{
+    border-left: 1px solid black;
+}
+#navigation-bar ul li:hover a{
+    color: blue;
+    background: #0847f375;
 }
 
-.second-sec{
+/*<<<<<<<<<< top section >>>>>>>>>>*/
+
+#top-section{
     display: flex;
-    background-image: url(../image/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+    margin-bottom: 50px;
 }
-.dreamBig-title{
-    width: 50%;
-    padding-right: 8%;
+.diet-area {
+    width: 40%;
+    margin-left: 8%;
+    margin-right: 2%;
 }
-.dreamBig-title img{
-    width: 90%;
-    padding-left: 8%;
+.diet-area span {
+    color: #2d04aa;
+    text-shadow: 4px -5px 9px #2b016e;
+    font-size: 70px;
 }
-.dreamBig-title h2{
-    font-size: 40px;
+.diet-area h1 {
+    font-size: 50px;
+    color: #004a89;
+    font-weight: 700;
 }
-.dreamBig-title p{
-    color: dimgray;
+.diet-area p{
+    color: #121c28;
+    margin-bottom: 50px;
     text-align: justify;
+}
+#anchor{
+    text-decoration: none;
+    background: linear-gradient(#076cea, #8d0082);
+    padding: 12px 35px;
+    border-radius: 50px;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    transition: .3s;
+}
+#anchor:hover{
+    background: linear-gradient(rgb(6, 168, 243),#013472);
+    font-size: 25px;
+}
+.diet-area img{
+    width: 70%;
+}
+
+/*<<<<<<<<<< About section area >>>>>>>>>> */
+
+.about-sec {
+    display: flex;
+    background-image: url(../image/shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -320px;
+    background-position-y: -68px;
+}
+.about-area {
+    width: 40%;
+    margin-left: 9%;
+    margin-right: -8%;
+}
+.about-area img{
+    margin-top: 10px;
+    width: 50%;
+}
+.about-area h2 {
+    color: #2b5697;
+    font-weight: 800;
+    letter-spacing: .2em;
+    margin-top: 100px;
+}
+.about-area p{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+/*<<<<<<<<<< Recipies Section area >>>>>>>>>> */
+
+.top-recipies-area{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.top-recipies-area h2{
+    color: #2b5697;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    padding-top: 40px;
+    position: relative;
+    margin-bottom: 25px;
+}
+.top-recipies-area h2::before {
+    position: absolute;
+    content: '';
+    top: 81px;
+    left: 362px;
+    width: 69px;
+    height: 2px;
+    background: #5a04cb;
+}
+.top-recipies-area p {
+    color: #121c28;
+    margin-bottom: 25px;
+}
+.recipies-title-parent{
+    display: flex;
+    margin-left: 8%;
+}
+.recipies-title {
+    width: 25%;
+    margin: 0 50px;
+    box-shadow: -3px 8px 37px 18px #f6d2d2;
+    border-radius: 20px;
+}
+.recipies-title img {
+    width: 90%;
+    margin: 20px 0 0 18px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+.recipies-title:hover img{
+    transform: scale(1.2);
+}
+.recipies-title h3 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-left: 18px;
+}
+.recipies-title p{
+    padding-left: 18px;
+}
+
+/*<<<<<<<<<< Counter of Subscriber >>>>>>>>>>*/
+
+#counterOfnumber {
+    display: flex;
+    margin: 100px 4% 60px 8%;
+    box-shadow: 5px 6px 15px 8px #f6d2d2;
+    border-radius: 20px;
+}
+.subscribeK {
+    padding: 30px 150px 30px 143px;
+    text-align: center;
+}
+
+/*<<<<<<<<<< footer area >>>>>>>>>>*/
+
+#other-sec {
+    background: #2B2828;
+    padding-bottom: 115px;
+    padding-top: 28px;
+}
+.other-area{
+    width: 76%;
+    margin: 0 auto;
+}
+.other-area h1 {
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.other-area h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-top: -42px;
+    font-weight: 400;
+}
+.other-area span{
+    color: red;
+}
+.other-area input {
+    padding: 14px 398px 14px 21px;
+    font-size: 25px;
+}
+.other-area button {
+    padding: 16px 40px;
+    background: red;
+    border: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+footer{
+    background: #15152df2;
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 40px;
+}
+footer span{
+    color: orange;
 }
